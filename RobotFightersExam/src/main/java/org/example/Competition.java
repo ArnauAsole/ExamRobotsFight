@@ -24,8 +24,6 @@ public class Competition {
                 .collect(Collectors.toList());
     }
 
-    int minSpeed = 50;
-
     public String BrandRobots(String enterprise) {
         String response = "";
         for (Robots robot : registeredRobots) {
