@@ -1,13 +1,11 @@
 package org.example;
 
-import java.util.List; // ✅ Correct!
-import java.util.ArrayList; // If you're using ArrayList too
+import java.util.List;
+import java.util.ArrayList;
 import java.time.LocalDate;
 import java.time.Year;
 import java.util.stream.Collectors;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
